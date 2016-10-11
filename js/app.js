@@ -1,0 +1,27 @@
+angular.module('portfolioApp', ['ui.router'])
+.config(function ($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/');
+
+  $stateProvider
+    .state('home', {
+      url: "/",
+      templateUrl: "../views/homeView.html",
+      controller: "homeCtrl"
+    })
+    .state('about', {
+      url: "/about",
+      templateUrl: "../views/aboutView.html",
+      controller: "aboutCtrl"
+    })
+    .state('developer', {
+      url: "/developer",
+      templateUrl: "../views/developerView.html",
+      controller: "developerCtrl"
+    })
+    .state('designer', {
+      url: "/designer",
+      templateUrl: "../views/designerView.html",
+      controller: "designerCtrl"
+    })
+
+})
