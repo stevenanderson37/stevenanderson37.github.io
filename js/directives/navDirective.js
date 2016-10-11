@@ -1,2 +1,10 @@
 angular.module('portfolioApp')
-.directive()
+.directive('navDirective', function() {
+
+  return {
+    restrict: 'AE',
+    template: ''
+    }
+
+
+});
