@@ -3,7 +3,7 @@ angular.module('portfolioApp')
 
   return {
     restrict: 'AE',
-    template: ''
+    templateUrl: '../views/navDirective.html'
     }
 
 
