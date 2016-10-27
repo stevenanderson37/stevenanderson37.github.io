@@ -116,7 +116,7 @@ button:hover {
   font-size: 15px;
   text-shadow: rgb(40, 40, 40) 0px 0px 0px;
   font-family: 'PT Serif', serif;
-  padding-top: 3%;
+  /*padding-top: 3%;*/
   text-align: left;
   line-height: 30px;
 }
@@ -171,13 +171,14 @@ button:hover {
   /*background-color: white;
   border-style: solid;
   border-bottom: thin dotted lightgray;*/
+  box-shadow: -1px 0px 6px rgb(125, 125, 125);
 }
 
 .content-container img {
   /*justify-content: center;*/
   align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
+  /*background-position: center;
+  background-repeat: no-repeat;*/
   width: 100%;
   margin: auto;
   padding: 5%;
