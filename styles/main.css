@@ -153,7 +153,7 @@ button:active {
   /*background-color: white;
   border-style: solid;
   border-bottom: thin dotted lightgray;*/
-  box-shadow: -1px 0px 6px rgb(125, 125, 125);
+  /*box-shadow: -1px 0px 6px rgb(125, 125, 125);*/
 }
 
 .content-container img {
@@ -175,7 +175,7 @@ footer {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  /*border-top: thin solid rgba(15, 15, 15, 1);*/
+  border-top: thin solid rgba(15, 15, 15, 1);
   background-color: rgba(235, 235, 235, 1);
   position: relative;
   bottom: 0;
