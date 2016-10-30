@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 100vh;
   /*padding-top: 25vh;*/
-  background: linear-gradient(rgba(15, 15, 15, 0.1), rgba(15, 15, 15, 0.1)), url("../img/iMacOnDesk_cropped.png");
+  background: linear-gradient(rgba(25, 25, 25, 0.1), rgba(25, 25, 25, 0.1)), url("../img/iMacOnDesk_cropped.png");
   background-color: rgba(15, 15, 15, 1);
   background-size: cover;
   background-position: center;
@@ -53,19 +53,6 @@ body {
   margin: auto;
 }
 
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  animation:fadeIn ease-in 1;
-
-  animation-fill-mode:forwards;
-
-  animation-duration:1s;
-
-  animation-delay: 0.5s;
-}
-
 .header-container path {
   width: 100%;
 }
@@ -86,8 +73,13 @@ button:hover {
   cursor: pointer;
 }
 
+button:active {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}
+
 .intro-text-box {
-  width: 50%;
+  width: 50vw;
   height: 100vh;
   top: 0;
   left: 0;
@@ -96,16 +88,23 @@ button:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #FFF;
-  /*text-shadow: rgb(40, 40, 40) 0px 0px 3px;*/
-  font-size: 4vw;
-  padding-top: 15vh;
   margin: auto;
-  /*padding-left: 10vw;
-  padding-right: 10vw;*/
   display: inline;
 }
 
+.sticky-position-box {
+  width: 50vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding-top: 15vh;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  padding-bottom: 30vh;
+}
+
 .intro-text-box h1 {
+  margin: auto;
   font-size: 35px;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
@@ -113,10 +112,10 @@ button:hover {
 }
 
 .intro-text-box p {
+  margin: auto;
   font-size: 15px;
   text-shadow: rgb(40, 40, 40) 0px 0px 0px;
   font-family: 'PT Serif', serif;
-  /*padding-top: 3%;*/
   text-align: left;
   line-height: 30px;
 }
@@ -124,28 +123,12 @@ button:hover {
 .content-title-container {
   width: 50%;
   height: auto;
-  padding-left: 8vw;
-  padding-right: 8vw;
-  padding-top: 15vh;
+  position: relative;
+  /*padding-left: 8vw;*/
+  /*padding-right: 8vw;*/
+  /*padding-top: 15vh;*/
+  display: inline;
 }
-
-/*.header-container h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #FFF;
-  font-style: normal;
-  font-size: 8vw;
-  margin: auto;
-}
-
-.header-container h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  color: rgb(73, 226, 214);
-  font-style: normal;
-  font-size: 3.5vw;
-  margin-top: 20px;
-}*/
 
 .section-row {
   width: 100%;
@@ -156,8 +139,7 @@ button:hover {
   /*overflow: auto;*/
 }
 
-
-/* ∨ Specifically styles for the portfolio pages. ∨ */
+/* Specifically styles for the portfolio pages. */
 
 .content-container {
   position: relative;
@@ -187,12 +169,17 @@ button:hover {
 /* ∨ FOOTER ∨ */
 
 footer {
+  width: 100%;
+  height: 15vh;
   margin: auto;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  border-top: thin solid rgba(15, 15, 15, 1);
-  background-color: lightgray;
+  /*border-top: thin solid rgba(15, 15, 15, 1);*/
+  background-color: rgba(235, 235, 235, 1);
+  position: relative;
+  bottom: 0;
+
 }
 
 footer button {
@@ -203,4 +190,19 @@ footer button {
   background-color: rgba(15, 15, 15, 1);
   color: rgba(255,255,255,1);
   padding: 10px;
+}
+
+/* ANIMATIONS */
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  animation:fadeIn ease-in 1;
+
+  animation-fill-mode:forwards;
+
+  animation-duration:1s;
+
+  animation-delay: 0.5s;
 }
