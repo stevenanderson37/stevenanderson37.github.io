@@ -6,12 +6,8 @@ body {
 }
 
 .header-container {
-  /*top: 0;
-  left: 0;
-  right: 0;*/
   width: 100%;
   height: 100vh;
-  /*padding-top: 25vh;*/
   background: linear-gradient(rgba(25, 25, 25, 0.1), rgba(25, 25, 25, 0.1)), url("../img/iMacOnDesk_cropped.png");
   background-color: rgba(15, 15, 15, 1);
   background-size: cover;
