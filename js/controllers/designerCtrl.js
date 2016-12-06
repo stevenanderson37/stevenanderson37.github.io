@@ -16,5 +16,5 @@ angular.module('portfolioApp')
     // "parent": ".intro-text-box",
     "bottoming": false
   });
-  
+
 })
