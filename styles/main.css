@@ -5,6 +5,10 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-top {
   width: 100vw;
   text-align: center;
@@ -64,21 +68,25 @@ button:active {
 
 .home-keyboard {
   width: 400px;
+  /*width: 32vw;*/
   position: absolute;
   z-index: 2;
   left: 50%;
   bottom: 0px;
-  margin-left: -190px;
+  margin-left: -191px;
+  /*margin-left: -15.5vw;*/
   margin-bottom: -10px;
 }
 
 .home-keyboard-shadow {
   width: 400px;
+  /*width: 32vw;*/
   position: absolute;
   z-index: 1;
   left: 50%;
   bottom: 0px;
-  margin-left: -193px;
+  margin-left: -191px;
+  /*margin-left: -15.5vw;*/
   margin-bottom: -10px;
 }
 
@@ -263,6 +271,7 @@ button:active {
   margin-left: -250px;
   overflow: visible;
   fill: #000000;
+  z-index: 1000;
 }
 
 .logo-container embed {
@@ -276,6 +285,7 @@ button:active {
   margin-left: -315px;
   overflow: visible;
   fill: #000000;
+  z-index: 1000;
 }
 
 .portfolio-work-container {
@@ -409,7 +419,7 @@ footer button {
 
   animation-fill-mode:forwards;
 
-  animation-duration:1s;
+  animation-duration:2s;
 
   animation-delay: 0.5s;
 }
@@ -441,3 +451,119 @@ footer button {
 #home-banner-rays {
 
 }
+
+/* MEDIA QUERIES */
+
+/*@media(min-width: 1500px) {
+  .home-keyboard {
+    width: 600px;
+    margin-left: -295px;
+    margin-bottom: -10px;
+  }
+
+  .home-keyboard-shadow {
+    width: 600px;
+    margin-left: -295px;
+    margin-bottom: -10px;
+  }
+
+  .home-ballpoint {
+    height: 100px;
+    margin-top: -25px;
+    margin-right: -50px;
+  }
+
+  .home-ballpoint-shadow {
+    height: 100px;
+    margin-top: -25px;
+    margin-right: -50px;
+  }
+
+
+  .home-felt-pen {
+    width: 60px;
+    margin-top: -100px;
+    margin-right: 45px;
+  }
+
+  .home-felt-pen-shadow {
+    width: 60px;
+    margin-top: -85px;
+    margin-right: 45px;
+  }
+
+  .home-sharpie {
+    height: 60px;
+    margin-top: 100px;
+    margin-right: -130px;
+  }
+
+  .home-sharpie-shadow {
+    height: 60px;
+    margin-top: 100px;
+    margin-right: -130px;
+  }
+
+  .home-earbuds {
+    margin-left: -75px;
+    margin-bottom: -50px;
+  }
+
+  .home-earbuds-shadow {
+    bottom: 0;
+    margin-left: -75px;
+    margin-bottom: -50px;
+  }
+
+  .home-iMac-above {
+    width: 700px;
+    margin-top: -100px;
+    margin-left: -350px;
+  }
+
+  .home-iMac-above-shadow {
+    width: 700px;
+    margin-top: -100px;
+    margin-left: -350px;
+  }
+
+  .home-mouse {
+    width: 135px;
+    margin-bottom: 10px;
+  }
+
+  .home-mouse-shadow {
+    width: 135px;
+    margin-bottom: 10px;
+  }
+
+  .home-bamboo {
+    width: 400px;
+    margin-left: -150px;
+    margin-top: -75px;
+  }
+
+  .home-bamboo-shadow {
+    width: 400px;
+    margin-left: -150px;
+    margin-top: -75px;
+  }
+
+  .logo-container {
+    width: 100%;
+    height: 45vh;
+    margin: 3.5vh auto;
+  }
+
+  .logo-container svg {
+    width: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+  }
+
+  .logo-container embed {
+    width: 630px;
+    margin-top: -350px;
+    margin-left: -315px;
+  }
+}*/
