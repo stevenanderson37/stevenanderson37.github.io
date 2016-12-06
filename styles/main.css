@@ -288,6 +288,10 @@ button:active {
   z-index: 1000;
 }
 
+.logo {
+  
+}
+
 .portfolio-work-container {
   width: 100%;
   height: auto;
