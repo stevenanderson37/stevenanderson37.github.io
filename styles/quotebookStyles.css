@@ -59,8 +59,8 @@
 }
 
 .addButton-circle {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   float: right;
   border-radius: 75%;
@@ -83,7 +83,7 @@
   width: 255px;
   height: auto;
   font-family: 'Minion Cyrillic Semibold', arial;
-  font-size: 30px;
+  font-size: 20px;
   color: #3a3a3a;
   text-align: left;
 }
@@ -107,14 +107,14 @@
 .add-author {
   padding-top: 10px;
   font-family: 'Minion Cyrillic Semibold', arial;
-  font-size: 30px;
+  font-size: 20px;
   color: #717171;
 }
 
 .add-author input {
   width: 225px;
   font-family: 'Minion Cyrillic Semibold', arial;
-  font-size: 30px;
+  font-size: 20px;
   border-style: none;
   background-color: transparent;
 }
@@ -136,9 +136,9 @@
 }
 
 .deleteButton-circle {
-  width: 40px;
-  height: 40px;
-  margin-top: -33px;
+  width: 30px;
+  height: 30px;
+  margin-top: -20px;
   text-align: center;
   float: right;
   border-radius: 75%;
@@ -159,14 +159,14 @@
   height: auto;
   margin-right: 10%;
   font-family: 'Minion Cyrillic Semibold', arial;
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(58, 58, 58);
 }
 
 .container .author {
   padding-top: 10px;
   font-family: 'Minion Cyrillic Semibold', arial;
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(113, 113, 113);
 }
 
@@ -176,11 +176,11 @@ q {
 }
 q:before {
   content: open-quote;
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Slabo 27px', 'Alegreya Sans', serif;
 }
 q:after {
   content: close-quote;
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Slabo 27px', 'Alegreya Sans', serif;
 }
