@@ -72,11 +72,11 @@ $(window).scroll(function() {
   });
 
   $('.home-iMac-above').css({
-    'transform': 'translate(0px, '+ winScroll /5 +'%)'
+    'transform': 'translate(0px, -'+ winScroll /10 +'%)'
   });
 
   $('.home-iMac-above-shadow').css({
-    'transform': 'translate(0px, '+ winScroll /5 +'%)'
+    'transform': 'translate(0px, -'+ winScroll /10 +'%)'
   });
 
 });
