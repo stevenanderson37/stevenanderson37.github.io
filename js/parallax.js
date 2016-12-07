@@ -3,7 +3,7 @@ $(window).scroll(function() {
   // find the scroll and use this variable to move elements
 
   var winScroll = $(this).scrollTop();
-  console.log(winScroll);
+  // console.log(winScroll);
 
   // left side moves out of view on the x-axis on scroll
 
