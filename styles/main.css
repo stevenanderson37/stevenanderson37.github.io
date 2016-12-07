@@ -289,7 +289,7 @@ button:active {
 }
 
 .logo {
-  
+
 }
 
 .portfolio-work-container {
@@ -358,6 +358,36 @@ button:active {
   flex-wrap: wrap;
   flex-direction: row;
   /*overflow: auto;*/
+}
+
+#section1 a {
+  color: #282828;
+  text-decoration: underline;
+}
+
+#section1 a:hover {
+  opacity: .75;
+  cursor: pointer;
+}
+
+#section2 a {
+  color: #67fff4;
+  text-decoration: underline;
+}
+
+#section2 a:hover {
+  color: rgba(103, 255, 244, .75);
+  cursor: pointer;
+}
+
+#section3 a {
+  color: #282828;
+  text-decoration: underline;
+}
+
+#section3 a:hover {
+  opacity: .75;
+  cursor: pointer;
 }
 
 /* Specifically styles for the portfolio pages. */
