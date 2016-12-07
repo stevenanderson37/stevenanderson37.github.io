@@ -335,7 +335,6 @@ button:active {
 .intro-text-box p {
   margin: auto;
   font-size: 15px;
-  text-shadow: rgb(40, 40, 40) 0px 0px 0px;
   font-family: 'PT Serif', serif;
   text-align: left;
   line-height: 30px;
