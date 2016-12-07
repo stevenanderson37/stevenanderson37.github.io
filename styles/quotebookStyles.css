@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500');
-@import url('http://allfont.net/allfont.css?fonts=minion-cyrillic-semibold');
+/*@import url('http://allfont.net/allfont.css?fonts=minion-cyrillic-semibold');*/
 @import url('https://db.onlinewebfonts.com/c/ec1f36c35b8b75a3931d8e50f53ae189?family=Minion+Cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
@@ -83,7 +83,7 @@
   background-color: transparent;
   width: 255px;
   height: auto;
-  font-family: 'Minion Cyrillic Semibold', arial;
+  font-family: 'Minion Cyrillic', serif;
   font-size: 20px;
   color: #3a3a3a;
   text-align: left;
@@ -107,14 +107,14 @@
 
 .add-author {
   padding-top: 10px;
-  font-family: 'Minion Cyrillic Semibold', arial;
+  font-family: 'Minion Cyrillic', serif;
   font-size: 20px;
   color: #717171;
 }
 
 .add-author input {
   width: 225px;
-  font-family: 'Minion Cyrillic Semibold', arial;
+  font-family: 'Minion Cyrillic', serif;
   font-size: 20px;
   border-style: none;
   background-color: transparent;
@@ -159,14 +159,14 @@
   width: 100%;
   height: auto;
   margin-right: 10%;
-  font-family: 'Minion Cyrillic Semibold', arial;
+  font-family: 'Minion Cyrillic', serif;
   font-size: 20px;
   color: rgb(58, 58, 58);
 }
 
 .container .author {
   padding-top: 10px;
-  font-family: 'Minion Cyrillic Semibold', arial;
+  font-family: 'Minion Cyrillic', serif;
   font-size: 20px;
   color: rgb(113, 113, 113);
 }
