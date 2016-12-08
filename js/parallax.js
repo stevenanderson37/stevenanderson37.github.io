@@ -7,55 +7,55 @@ $(window).scroll(function() {
 
   // left side moves out of view on the x-axis on scroll
 
-  // $('.home-earbuds').css({
-  //   'transform': 'translate(-'+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-earbuds-shadow').css({
-  //   'transform': 'translate(-'+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-bamboo').css({
-  //   'transform': 'translate(-'+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-bamboo-shadow').css({
-  //   'transform': 'translate(-'+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // // right side moves out of view on the x-axis on scroll
-  //
-  // $('.home-ballpoint').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-ballpoint-shadow').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-felt-pen').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-felt-pen-shadow').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-sharpie').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-sharpie-shadow').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-mouse').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
-  //
-  // $('.home-mouse-shadow').css({
-  //   'transform': 'translate('+ winScroll /13 +'%, 0px)'
-  // });
+  $('.home-earbuds').css({
+    'transform': 'rotate(.625turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-earbuds-shadow').css({
+    'transform': 'rotate(.625turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-bamboo').css({
+    'transform': 'rotate(.625turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-bamboo-shadow').css({
+    'transform': 'rotate(.625turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  // right side moves out of view on the x-axis on scroll
+
+  $('.home-ballpoint').css({
+    'transform': 'rotate(.91turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-ballpoint-shadow').css({
+    'transform': 'rotate(.91turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-felt-pen').css({
+    'transform': 'rotate(.655turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-felt-pen-shadow').css({
+    'transform': 'rotate(.655turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-sharpie').css({
+    'transform': 'rotate(.9turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-sharpie-shadow').css({
+    'transform': 'rotate(.9turn) translate('+ winScroll /13 +'%, -'+ winScroll /10 +'%)'
+  });
+
+  $('.home-mouse').css({
+    'transform': 'rotate(.9turn) translate('+ winScroll /15 +'%, '+ winScroll /10 +'%)'
+  });
+
+  $('.home-mouse-shadow').css({
+    'transform': 'rotate(.9turn) translate('+ winScroll /15 +'%, '+ winScroll /10 +'%)'
+  });
 
   // center moves down on the y-axis on scroll
 

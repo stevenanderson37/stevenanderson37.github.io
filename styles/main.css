@@ -292,6 +292,21 @@ button:active {
 
 }
 
+.next-section {
+
+}
+
+.next-section embed {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
+  position: absolute;
+  left: 50%;
+  margin-left: -12.5px;
+  top: 70%;
+  margin-top: 5px;
+}
+
 .portfolio-work-container {
   width: 100%;
   height: auto;
@@ -447,12 +462,12 @@ footer button {
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .fade-in {
-  opacity:0;  /* make things invisible upon start */
+  opacity: 0;  /* make things invisible upon start */
   animation:fadeIn ease-in 1;
 
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 
-  animation-duration:2s;
+  animation-duration: 2s;
 
   animation-delay: 0.5s;
 }
