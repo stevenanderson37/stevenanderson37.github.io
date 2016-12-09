@@ -675,6 +675,34 @@ footer button {
 
 @media(max-width: 1035px) {
 
+  .logo-container svg {
+    width: 480px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-top: -225px;
+    top: 50%;
+    left: 50%;
+    margin-left: -240px;
+    overflow: visible;
+    fill: #000000;
+    z-index: 1000;
+  }
+
+  .logo-container embed {
+    width: 610px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-top: -325px;
+    top: 50%;
+    left: 50%;
+    margin-left: -305px;
+    overflow: visible;
+    fill: #000000;
+    z-index: 1000;
+  }
+
   .home-keyboard {
     width: 385px;
     margin-left: -191px;
