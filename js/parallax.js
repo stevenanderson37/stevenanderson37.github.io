@@ -50,11 +50,11 @@ $(window).scroll(function() {
   });
 
   $('.home-mouse').css({
-    'transform': 'rotate(.9turn) translate('+ winScroll /15 +'%, '+ winScroll /10 +'%)'
+    'transform': 'rotate(.9turn) translate('+ winScroll /7 +'%, '+ winScroll /10 +'%)'
   });
 
   $('.home-mouse-shadow').css({
-    'transform': 'rotate(.9turn) translate('+ winScroll /15 +'%, '+ winScroll /10 +'%)'
+    'transform': 'rotate(.9turn) translate('+ winScroll /7 +'%, '+ winScroll /10 +'%)'
   });
 
   // center moves down on the y-axis on scroll
