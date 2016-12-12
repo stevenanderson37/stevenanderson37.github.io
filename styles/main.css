@@ -73,7 +73,7 @@ button:active {
   z-index: 2;
   left: 50%;
   bottom: 0px;
-  margin-left: -191px;
+  margin-left: -200px;
   /*margin-left: -15.5vw;*/
   margin-bottom: -10px;
 }
@@ -85,7 +85,7 @@ button:active {
   z-index: 1;
   left: 50%;
   bottom: 0px;
-  margin-left: -191px;
+  margin-left: -200px;
   /*margin-left: -15.5vw;*/
   margin-bottom: -10px;
 }
@@ -573,6 +573,134 @@ footer button {
 }
 
 /* MEDIA QUERIES */
+
+@media(min-width: 1800px) {
+  .home-keyboard {
+    width: 450px;
+    margin-left: -225px;
+    margin-bottom: -5px;
+  }
+
+  .home-keyboard-shadow {
+    width: 450px;
+    margin-left: -225px;
+    margin-bottom: -5px;
+  }
+
+  .home-ballpoint {
+    height: 60px;
+    margin-top: -25px;
+    margin-right: -20px;
+  }
+
+  .home-ballpoint-shadow {
+    height: 60px;
+    margin-top: -25px;
+    margin-right: -20px;
+  }
+
+
+  .home-felt-pen {
+    width: 60px;
+    margin-top: -80px;
+    margin-right: 35px;
+  }
+
+  .home-felt-pen-shadow {
+    width: 60px;
+    margin-top: -70px;
+    margin-right: 35px;
+  }
+
+  .home-sharpie {
+    height: 60px;
+    margin-top: 175px;
+    margin-right: -100px;
+  }
+
+  .home-sharpie-shadow {
+    height: 60px;
+    margin-top: 175px;
+    margin-right: -100px;
+  }
+
+  .home-earbuds {
+    width: 300px;
+    height: auto;
+    margin-left: -30px;
+    margin-bottom: 20px;
+  }
+
+  .home-earbuds-shadow {
+    width: 300px;
+    height: auto;
+    margin-left: -29px;
+    margin-bottom: 18px;
+  }
+
+  .home-iMac-above {
+    width: 900px;
+    margin-top: -100px;
+    margin-left: -450px;
+  }
+
+  .home-iMac-above-shadow {
+    width: 900px;
+    margin-top: -100px;
+    margin-left: -450px;
+  }
+
+  .home-mouse {
+    width: 115px;
+    margin-bottom: 45px;
+    -ms-transform: rotate(.88turn);
+    -webkit-transform: rotate(.88turn);
+    -moz-transform: rotate(.88turn);
+    -o-transform: rotate(.88turn);
+    transform: rotate(.88turn);
+  }
+
+  .home-mouse-shadow {
+    width: 115px;
+    margin-bottom: 45px;
+    -ms-transform: rotate(.88turn);
+    -webkit-transform: rotate(.88turn);
+    -moz-transform: rotate(.88turn);
+    -o-transform: rotate(.88turn);
+    transform: rotate(.88turn);
+  }
+
+  .home-bamboo {
+    width: 400px;
+    margin-left: -150px;
+    margin-top: -60px;
+  }
+
+  .home-bamboo-shadow {
+    width: 400px;
+    margin-left: -150px;
+    margin-top: -60px;
+  }
+
+  .logo-container {
+    width: 100%;
+    height: 45vh;
+    margin: 3.5vh auto;
+    text-align: center;
+  }
+
+  .logo-container svg {
+    width: 650px;
+    margin-top: -300px;
+    margin-left: -325px;
+  }
+
+  .logo-container embed {
+    width: 730px;
+    margin-top: -400px;
+    margin-left: -365px;
+  }
+}
 
 @media(max-width: 1250px) {
   .home-keyboard {
