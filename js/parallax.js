@@ -62,7 +62,15 @@ $(window).scroll(function() {
     // center moves down on the y-axis on scroll
 
     $('.logo').css({
-      'transform': 'translate(0px, '+ winScroll /20 +'%)'
+      'transform': 'translate(0px, '+ winScroll /10 +'%)'
+    });
+
+    $('.nav-links').css({
+      'transform': 'translate(0px, '+ winScroll *.3 +'px)'
+    });
+
+    $('.nav-anchor').css({
+      'transform': 'translate(0px, '+ winScroll *.3 +'px)'
     });
 
     $('.home-keyboard').css({

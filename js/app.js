@@ -23,5 +23,10 @@ angular.module('portfolioApp', ['ui.router'])
       templateUrl: "../views/designerView.html",
       controller: "designerCtrl"
     })
+    .state('contact', {
+      url: "/contact",
+      templateUrl: "../views/contactView.html",
+      controller: "contactCtrl"
+    });
 
 })
