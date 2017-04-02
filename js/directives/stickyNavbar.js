@@ -6,16 +6,58 @@ angular.module('portfolioApp')
     templateUrl: '../views/stickyNavbar.html',
     controller: function($scope, portfolioSrv) {
 
-      // STICKY NAVBAR WITH JQUERY //
-      // var headerContainerHeight = $('.header-container').height();
-      var num = $('.header-container').height(); //number of pixels before modifying styles
+      // STICKY NAVBAR WITH JQUERY + HIGHLIGHTING THE CURRENT LOCATION //
+
+      var headerHeight = $('.header-container').height();
+      var aboutHeight = $('.home-about-me').height();
+      var developerHeight = $('.home-developer-portfolio').height();
+      var designerHeight = $('.home-design-portfolio').height();
 
       $(window).bind('scroll', function () {
-        if ($(window).scrollTop() >= num) {
-          $('.sticky-navbar').removeClass('fixed-navbar');
-        } else {
-          $('.sticky-navbar').addClass('fixed-navbar');
-        }
+
+        // STICKY NAVBAR WITH JQUERY //
+
+        $(function() {
+          if ($(window).scrollTop() >= headerHeight) {
+            $('.sticky-navbar').removeClass('fixed-navbar');
+          } else {
+            $('.sticky-navbar').addClass('fixed-navbar');
+          }
+        });
+
+        // HIGHLIGHTING THE CURRENT LOCATION //
+
+        $(function() {
+          if ($(window).scrollTop() >= headerHeight && $(window).scrollTop() <= headerHeight + aboutHeight) {
+            $('.opaque-about-link').addClass('highlight-section');
+          } else {
+            $('.opaque-about-link').removeClass('highlight-section');
+          }
+        });
+
+        $(function() {
+          if ($(window).scrollTop() >= headerHeight + aboutHeight && $(window).scrollTop() <= headerHeight + aboutHeight + developerHeight) {
+            $('.opaque-developer-link').addClass('highlight-section');
+          } else {
+            $('.opaque-developer-link').removeClass('highlight-section');
+          }
+        });
+
+        $(function() {
+          if ($(window).scrollTop() >= headerHeight + aboutHeight + developerHeight && $(window).scrollTop() <= headerHeight + aboutHeight + developerHeight + designerHeight - 40) {
+            $('.opaque-designer-link').addClass('highlight-section');
+          } else {
+            $('.opaque-designer-link').removeClass('highlight-section');
+          }
+        });
+
+        $(function() {
+          if ($(window).scrollTop() >= headerHeight + aboutHeight + developerHeight + designerHeight - 40) {
+            $('.opaque-contact-link').addClass('highlight-section');
+          } else {
+            $('.opaque-contact-link').removeClass('highlight-section');
+          }
+        });
       });
 
       // SOFT SCROLL //
