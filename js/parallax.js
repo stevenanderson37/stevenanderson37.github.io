@@ -65,7 +65,7 @@ $(window).scroll(function() {
       'transform': 'translate(0px, '+ winScroll /10 +'%)'
     });
 
-    $('.nav-links').css({
+    $('.header-nav-links').css({
       'transform': 'translate(0px, '+ winScroll *.3 +'px)'
     });
 
@@ -87,6 +87,20 @@ $(window).scroll(function() {
 
     $('.home-iMac-above-shadow').css({
       'transform': 'translate(0px, -'+ winScroll /10 +'%)'
+    });
+
+    // HEADER NAVBAR STARS //
+
+    $('#header-star-left').css({
+      'transform': 'translate(-'+ winScroll *.4 +'px, '+ winScroll *.8 +'px)'
+    });
+
+    $('#header-star-center').css({
+      'transform': 'translate(0px, '+ winScroll *.8 +'px)'
+    });
+
+    $('#header-star-right').css({
+      'transform': 'translate('+ winScroll *.4 +'px, '+ winScroll *.8 +'px)'
     });
 
   }
