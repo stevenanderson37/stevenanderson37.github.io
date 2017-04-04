@@ -14,7 +14,7 @@ angular.module('portfolioApp')
       var designerHeight = $('.home-design-portfolio').height();
 
       $(window).bind('scroll', function () {
-        if ($(window).scrollTop() >= num && $(window).scrollTop() <= num + aboutHeight + developerHeight + designerHeight - 400) {
+        if ($(window).scrollTop() >= num && $(window).scrollTop() <= num + aboutHeight + developerHeight + designerHeight + 400) {
           $('.contact-icons-sidebar').addClass('fixed-sidebar');
         } else {
           $('.contact-icons-sidebar').removeClass('fixed-sidebar');

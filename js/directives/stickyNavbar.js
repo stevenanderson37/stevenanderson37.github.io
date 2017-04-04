@@ -44,7 +44,7 @@ angular.module('portfolioApp')
         });
 
         $(function() {
-          if ($(window).scrollTop() >= headerHeight + aboutHeight + developerHeight && $(window).scrollTop() <= headerHeight + aboutHeight + developerHeight + designerHeight - 40) {
+          if ($(window).scrollTop() >= headerHeight + aboutHeight + developerHeight && $(window).scrollTop() <= headerHeight + aboutHeight + developerHeight + designerHeight + 500) {
             $('.opaque-designer-link').addClass('highlight-section');
           } else {
             $('.opaque-designer-link').removeClass('highlight-section');
@@ -52,7 +52,7 @@ angular.module('portfolioApp')
         });
 
         $(function() {
-          if ($(window).scrollTop() >= headerHeight + aboutHeight + developerHeight + designerHeight - 40) {
+          if ($(window).scrollTop() >= headerHeight + aboutHeight + developerHeight + designerHeight + 500) {
             $('.opaque-contact-link').addClass('highlight-section');
           } else {
             $('.opaque-contact-link').removeClass('highlight-section');
