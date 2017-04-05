@@ -27,6 +27,11 @@ angular.module('portfolioApp', ['ui.router'])
       url: "/contact",
       templateUrl: "../views/contactView.html",
       controller: "contactCtrl"
+    })
+    .state('coming_soon', {
+      url: "/coming_soon",
+      templateUrl: "../views/comingSoonView.html",
+      controller: "comingSoonCtrl"
     });
 
 })

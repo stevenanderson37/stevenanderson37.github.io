@@ -18,7 +18,7 @@ angular.module('portfolioApp')
         // STICKY NAVBAR WITH JQUERY //
 
         $(function() {
-          if ($(window).scrollTop() >= headerHeight) {
+          if ($(window).scrollTop() >= headerHeight - 5) {
             $('.sticky-navbar').removeClass('fixed-navbar');
           } else {
             $('.sticky-navbar').addClass('fixed-navbar');
