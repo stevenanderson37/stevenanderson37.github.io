@@ -253,6 +253,87 @@
   }
 }
 
+@media(max-width: 1150px) {
+
+  /* ABOUT */
+
+  .home-about-me {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-info-container {
+    width: 85%;
+    height: auto;
+    margin: auto;
+  }
+
+  .about-pic-paragraph {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .profile-pic-container {
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../img/profilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .profile-pic-container img {
+    display: none;
+  }
+
+  .home-about-me p {
+    font-size: 18px;
+  }
+
+  .about-skills-container {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skills-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: 60px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .skills-icon-name {
+    width: 8%;
+    height: auto;
+    margin: auto;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .skills-icon-name img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8px;
+  }
+
+}
+
 @media(max-width: 1075px) {
 
   .logo-container svg {
@@ -383,6 +464,7 @@
     margin-left: -100px;
     margin-top: -60px;
   }
+
 }
 
 @media(max-width: 850px) {
@@ -506,21 +588,6 @@
 
 @media(max-width: 736px) {
 
-  .header-nav {
-    height: 45px;
-    padding-top: 8px;
-  }
-
-  .header-container {
-    height: 100vh;
-    width: auto;
-  }
-
-  button {
-    height: 30px;
-    font-size: 10px;
-  }
-
   .logo-container {
     width: auto;
     height: 100px;
@@ -529,9 +596,9 @@
   }
 
   .logo-container svg {
-    width: 300px;
-    margin-top: -125px;
-    margin-left: -150px;
+    width: 350px;
+    margin-top: -200px;
+    margin-left: -175px;
   }
 
   .logo-container embed {
@@ -540,29 +607,98 @@
     margin-left: -180px;
   }
 
+  .landing-page-nav {
+    width: 350px;
+    height: auto;
+    margin-left: calc(50% - 207px);
+    margin-top: 338px;
+    margin-bottom: 18px;
+    display: block;
+    position: inherit;
+  }
+
+  .landing-page-nav img {
+    height: 20px;
+    width: auto;
+  }
+
+  #about-link {
+    padding-right: 50px;
+  }
+
+  #developer-link {
+    padding-right: 80px;
+    padding-left: 18px;
+  }
+
+  #designer-link {
+    padding-right: 68px;
+    padding-left: 18px;
+  }
+
+  #contact-link {
+    padding-left: 18px;
+  }
+
   .home-keyboard {
-    width: 200px;
-    margin-left: -100px;
-    margin-bottom: -20px;
+    width: 50vw;
+    margin-left: -25vw;
+    margin-bottom: -25px;
   }
 
   .home-keyboard-shadow {
-    width: 200px;
-    margin-left: -100px;
-    margin-bottom: -20px;
+    width: 50vw;
+    margin-left: -25vw;
+    margin-bottom: -25px;
   }
 
   .home-iMac-above {
-    width: 400px;
+    width: 90vw;
     margin-top: -65px;
-    margin-left: -200px;
+    margin-left: -45vw;
   }
 
   .home-iMac-above-shadow {
-    width: 400px;
+    width: 90vw;
     margin-top: -65px;
-    margin-left: -200px;
+    margin-left: -45vw;
   }
+
+  /* STICKY NAVBAR */
+
+
+
+  /* ABOUT */
+
+  .home-about-me {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .about-info-container {
+    width: 85%;
+    height: auto;
+    margin: auto;
+  }
+
+  .about-pic-paragraph {
+    width: 85%;
+    height: auto;
+    margin: auto;
+  }
+
+  /* REVEALED FOOTER */
+
+  /*.footer-margin {
+
+  }
+
+  footer {
+
+  }*/
+
+  /* OLD PORTFOLIO STATES */
 
   .section-row {
     width: 100vw;
@@ -622,4 +758,149 @@
     width: 100%;
     text-align: left;
   }
+
+  .header-nav {
+    height: 45px;
+    padding-top: 8px;
+  }
+
+  .header-container {
+    height: 100vh;
+    width: auto;
+  }
+
+  button {
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 450px) {
+  /* SMART PHONES */
+
+  .header-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+
+  .logo-container {
+    width: auto;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo-container svg {
+    width: 250px;
+    margin: auto;
+    margin-top: -200px;
+    margin-left: -126px;
+  }
+
+  /* HEADER NAVBAR SMARTPHONES */
+
+  .landing-page-nav {
+    display: none;
+    position: absolute;
+  }
+
+  .landing-page-nav-smartphones {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 225px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-nav-smartphones div embed {
+    width: auto;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+
+  #about-link {
+    padding-right: 0px;
+  }
+
+  #developer-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #designer-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #contact-link {
+    padding-left: 0px;
+  }
+
+  .home-keyboard {
+    width: 50vw;
+    margin-left: -25vw;
+    margin-bottom: -25px;
+  }
+
+  .home-keyboard-shadow {
+    width: 50vw;
+    margin-left: -25vw;
+    margin-bottom: -25px;
+  }
+
+  .home-iMac-above {
+    width: 90vw;
+    margin-top: -10px;
+    margin-left: -45vw;
+  }
+
+  .home-iMac-above-shadow {
+    width: 90vw;
+    margin-top: -65px;
+    margin-left: -45vw;
+  }
+
+}
+
+@media(max-width: 350px) {
+
+  .logo-container svg {
+    width: 250px;
+    margin: auto;
+    margin-top: -180px;
+    margin-left: -124px;
+  }
+
+  /* HEADER NAVBAR SMARTPHONES */
+
+  .landing-page-nav {
+    display: none;
+    position: absolute;
+  }
+
+  .landing-page-nav-smartphones {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-nav-smartphones object embed {
+    width: auto;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+
 }
