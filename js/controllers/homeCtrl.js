@@ -132,6 +132,65 @@ angular.module('portfolioApp')
         });
       });
 
+      // FOR SMART PHONES //
+
+      $(function() {
+        // Select link by id and add click event
+        $('#about-link-smartphones').click(function() {
+
+          // Animate Scroll to #bottom
+          $('html,body').animate({
+            scrollTop: $("#about-section").offset().top }, // Tell it to scroll to the top #bottom
+            2000 // How long scroll will take in milliseconds
+          );
+
+          // Prevent default behavior of link
+          return false;
+        });
+      });
+      $(function() {
+        // Select link by id and add click event
+        $('#developer-link-smartphones').click(function() {
+
+          // Animate Scroll to #bottom
+          $('html,body').animate({
+            scrollTop: $("#developer-section").offset().top }, // Tell it to scroll to the top #bottom
+            2000 // How long scroll will take in milliseconds
+          );
+
+          // Prevent default behavior of link
+          return false;
+        });
+      });
+      $(function() {
+        // Select link by id and add click event
+        $('#designer-link-smartphones').click(function() {
+
+          // Animate Scroll to #bottom
+          $('html,body').animate({
+            scrollTop: $("#designer-section").offset().top }, // Tell it to scroll to the top #bottom
+            2000 // How long scroll will take in milliseconds
+          );
+
+          // Prevent default behavior of link
+          return false;
+        });
+      });
+      $(function() {
+        // Select link by id and add click event
+        $('#contact-link-smartphones').click(function() {
+
+          // Animate Scroll to #bottom
+          $('html,body').animate({
+            scrollTop: $("#contact-section").offset().top }, // Tell it to scroll to the top #bottom
+            2000 // How long scroll will take in milliseconds
+          );
+
+          // Prevent default behavior of link
+          return false;
+        });
+      });
+
       // vv STICKY NAVBAR vv //
 
       // $(function() {

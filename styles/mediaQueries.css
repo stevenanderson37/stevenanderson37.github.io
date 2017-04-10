@@ -588,6 +588,18 @@
 
 @media(max-width: 736px) {
 
+  .sticky-navbar {
+    display: none;
+  }
+
+  .fixed-navbar {
+    display: none;
+  }
+
+}
+
+@media(max-width: 736px) {
+
   .logo-container {
     width: auto;
     height: 100px;
