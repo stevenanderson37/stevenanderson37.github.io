@@ -787,8 +787,9 @@
   }
 }
 
+/* SMART PHONES */
+
 @media(max-width: 450px) {
-  /* SMART PHONES */
 
   .header-container {
     width: 100%;
@@ -810,6 +811,12 @@
     margin-left: -126px;
   }
 
+  /* SIDE CONTACT SIDEBAR */
+
+  .contact-icons-sidebar {
+    display: none;
+  }
+
   /* HEADER NAVBAR SMARTPHONES */
 
   .landing-page-nav {
@@ -821,7 +828,7 @@
     width: 200px;
     height: auto;
     margin: auto;
-    margin-top: 225px;
+    margin-top: 275px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -876,6 +883,200 @@
     width: 90vw;
     margin-top: -65px;
     margin-left: -45vw;
+  }
+
+  /* ABOUT */
+
+  .home-about-me {
+    padding-top: 40px;
+  }
+
+  .about-info-container {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+  }
+
+  .about-pic-paragraph {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .profile-pic-container {
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../img/profilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .profile-pic-container img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: -10px;
+  }
+
+  .home-about-me p {
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-left: 0px;
+  }
+
+  .home-about-me h2 {
+    font-size: 20px;
+  }
+
+  .about-skills-container {
+    width: 85vw;
+    height: auto;
+    margin: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .skills-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: 0px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .skills-icon-name {
+    width: 15%;
+    height: auto;
+    margin: auto;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .skills-icon-name img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 3px;
+  }
+
+  .skills-icon-name p {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: -15px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* DEVELOPER PORTFOLIO */
+
+  .home-developer-portfolio {
+    width: 100vw;
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .home-developer-portfolio h2 {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .home-developer-portfolio object embed {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .developer-thumbnail-container {
+    width: calc(100% - 100px);
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .developer-thumbnail {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    /*background-color: white;*/
+  }
+
+  .developer-thumbnail img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .developer-thumbnail-gif {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    /*background-color: white;*/
+  }
+
+  .home-developer-portfolio h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .additional-projects-container {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .additional-thumbnail-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .additional-thumbnail {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+
+  .additional-thumbnail img {
+    width: 100%;
+    height: auto;
+    margin: auto;
   }
 
 }
