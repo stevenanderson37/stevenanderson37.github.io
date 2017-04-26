@@ -890,6 +890,20 @@ button:active {
   box-shadow: 0px 0px 9px rgba(0,0,0,.35);
 }
 
+.designer-single-link {
+  width: 170px;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.designer-single-link a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
 .project-single-link {
   width: 170px;
   height: auto;
