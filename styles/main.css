@@ -885,6 +885,68 @@ button:active {
   margin-bottom: 30px;
 }
 
+.designer-portfolio-pics {
+  width: calc(100% - 150px);
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.portfolio-thumbnail-container {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;*/
+}
+
+.portfolio-thumbnail {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.portfolio-thumbnail img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.portfolio-cover-container {
+  width: calc(100% - 150px);
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.portfolio-cover {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;*/
+}
+
+.portfolio-cover-thumbnail {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.portfolio-cover-thumbnail img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
 .design-thumbnail {
   width: 100%;
   height: auto;
