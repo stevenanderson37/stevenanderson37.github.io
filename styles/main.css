@@ -698,7 +698,7 @@ button:active {
   height: auto;
   margin: auto;
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   display: flex;
   flex-flow: row;
   text-align: center;
@@ -713,6 +713,19 @@ button:active {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/*.developer-tech-used {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.developer-tech-used p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}*/
 
 .developer-thumbnail-container {
   width: calc(100% - 150px);
