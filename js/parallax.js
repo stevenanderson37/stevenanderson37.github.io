@@ -105,4 +105,58 @@ $(window).scroll(function() {
 
   }
 
+  // Turns off animations for thumbnails when smart phone size to speed up loading all the images.
+
+  if ($(window).width() <= 736) {
+
+    $('.skills-icon-name').css({
+      '-ms-animation-name': 'blank',
+      '-webkit-animation-name': 'blank',
+      '-moz-animation-name': 'blank',
+      '-o-animation-name': 'blank',
+      'animation-name': 'blank'
+    });
+
+    $('.developer-thumbnail').css({
+      '-ms-animation-name': 'blank',
+      '-webkit-animation-name': 'blank',
+      '-moz-animation-name': 'blank',
+      '-o-animation-name': 'blank',
+      'animation-name': 'blank'
+    });
+
+    $('.developer-thumbnail-gif').css({
+      '-ms-animation-name': 'blank',
+      '-webkit-animation-name': 'blank',
+      '-moz-animation-name': 'blank',
+      '-o-animation-name': 'blank',
+      'animation-name': 'blank'
+    });
+
+    $('.additional-thumbnail-container').css({
+      '-ms-animation-name': 'blank',
+      '-webkit-animation-name': 'blank',
+      '-moz-animation-name': 'blank',
+      '-o-animation-name': 'blank',
+      'animation-name': 'blank'
+    });
+
+    $('.portfolio-cover').css({
+      '-ms-animation-name': 'blank',
+      '-webkit-animation-name': 'blank',
+      '-moz-animation-name': 'blank',
+      '-o-animation-name': 'blank',
+      'animation-name': 'blank'
+    });
+
+    $('.portfolio-thumbnail-container').css({
+      '-ms-animation-name': 'blank',
+      '-webkit-animation-name': 'blank',
+      '-moz-animation-name': 'blank',
+      '-o-animation-name': 'blank',
+      'animation-name': 'blank'
+    });
+
+  }
+
 });

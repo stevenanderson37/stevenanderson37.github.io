@@ -952,7 +952,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
+    /*align-content: space-between;*/
+    /*align-items: center;*/
   }
 
   .skills-container {
@@ -963,6 +966,8 @@
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
   }
 
   .skills-icon-name {
@@ -1081,6 +1086,38 @@
     margin: auto;
   }
 
+  /* DESIGNER PORTFOLIO */
+
+  .home-designer-portfolio {
+    width: 100vw;
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .home-design-portfolio h2 {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .home-design-portfolio object embed {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .portfolio-thumbnail-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-cover {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
 }
 
 @media(max-width: 365px) {
@@ -1089,16 +1126,17 @@
 
   .logo-container svg {
     width: 250px;
+    position: static;
     margin: auto;
-    margin-top: -180px;
-    margin-left: -126px;
+    margin-top: 95px;
+    /*margin-left: -126px;*/
   }
 
   .landing-page-nav-smartphones {
     width: 200px;
     height: auto;
     margin: auto;
-    margin-top: 230px;
+    margin-top: 175px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1113,15 +1151,53 @@
     margin-bottom: 15px;
   }
 
+  .header-container .anchors {
+    margin-top: -15px;
+  }
+
 }
+
+/*@media screen and (max-width: 365px) , screen and (max-height: 515px) {
+
+  .logo-container svg {
+    width: 250px;
+    margin: auto;
+    margin-top: -160px;
+    margin-left: -126px;
+  }
+
+  .landing-page-nav-smartphones {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-nav-smartphones div embed {
+    width: auto;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .header-container .anchors {
+    margin-top: -15px;
+  }
+
+}*/
 
 @media(max-width: 350px) {
 
   .logo-container svg {
     width: 250px;
+    position: static;
     margin: auto;
-    margin-top: -180px;
-    margin-left: -124px;
+    margin-top: 95px;
   }
 
   /* HEADER NAVBAR SMARTPHONES */
