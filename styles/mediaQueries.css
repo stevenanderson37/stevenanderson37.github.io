@@ -1481,13 +1481,13 @@
 
 }
 
-@media(max-width: 365px) {
+@media(max-width: 370px) {
 
   /* Samsung Galaxy S5 */
 
   .logo-nav-container {
     position: absolute;
-    top: calc(50% - 118px);
+    top: calc(40% - 118px);
     left: calc(50% - 125px);
   }
 
@@ -1560,7 +1560,7 @@
 
   .logo-nav-container {
     position: absolute;
-    top: calc(50% - 120px);
+    top: calc(40% - 120px);
     left: calc(50% - 125px);
   }
 
