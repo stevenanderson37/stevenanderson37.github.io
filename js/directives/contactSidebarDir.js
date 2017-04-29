@@ -12,9 +12,11 @@ angular.module('portfolioApp')
       var aboutHeight = $('.home-about-me').height();
       var developerHeight = $('.home-developer-portfolio').height();
       var designerHeight = $('.home-design-portfolio').height();
+      var footerHeight = $('.revealed-footer').height();
+      var documentHeight = $(document).height();
 
       $(window).bind('scroll', function () {
-        if ($(window).scrollTop() >= num - 200 && $(window).scrollTop() <= num + aboutHeight + developerHeight + designerHeight + 400) {
+        if ($(window).scrollTop() >= num - 200) {
           $('.contact-icons-sidebar').addClass('fixed-sidebar');
         } else {
           $('.contact-icons-sidebar').removeClass('fixed-sidebar');

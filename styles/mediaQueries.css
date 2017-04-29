@@ -586,19 +586,59 @@
   }
 }
 
-@media(max-width: 736px) {
+@media(max-width: 768px) {
 
-  .sticky-navbar {
-    display: none;
+  .logo-nav-container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: calc(40% - 200px);
   }
 
-  .fixed-navbar {
-    display: none;
+  .logo-container svg {
+    width: 480px;
+    position: static;
+    margin: auto;
+    margin-top: 150px;
   }
+
+  .landing-page-nav {
+    width: 500px;
+    position: static;
+    /*margin-top: calc(50% - 200px);*/
+    margin-left: calc(50% - 303px);
+  }
+
+  /*.landing-page-nav-smartphones {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-nav-smartphones div embed {
+    width: auto;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .header-container .anchors {
+    margin-top: -15px;
+  }*/
 
 }
 
 @media(max-width: 736px) {
+
+  .logo-nav-container {
+    margin-top: 0;
+  }
 
   .logo-container {
     width: auto;
@@ -608,29 +648,18 @@
   }
 
   .logo-container svg {
-    width: 350px;
-    margin-top: -200px;
-    margin-left: -175px;
-  }
-
-  .logo-container embed {
-    width: 360px;
-    margin-top: -180px;
-    margin-left: -180px;
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 130px;
   }
 
   .landing-page-nav {
-    width: 350px;
-    height: auto;
-    margin-left: calc(50% - 207px);
-    margin-top: 338px;
-    margin-bottom: 18px;
-    display: block;
-    position: inherit;
+    margin-top: 320px;
+    margin-left: calc(50% - 283px);
   }
 
   .landing-page-nav img {
-    height: 20px;
+    height: 25px;
     width: auto;
   }
 
@@ -650,6 +679,10 @@
 
   #contact-link {
     padding-left: 18px;
+  }
+
+  .header-container .anchors {
+    margin-top: -15px;
   }
 
   .home-keyboard {
@@ -678,7 +711,13 @@
 
   /* STICKY NAVBAR */
 
+  .sticky-navbar {
+    display: none;
+  }
 
+  .fixed-navbar {
+    display: none;
+  }
 
   /* ABOUT */
 
@@ -699,16 +738,6 @@
     height: auto;
     margin: auto;
   }
-
-  /* REVEALED FOOTER */
-
-  /*.footer-margin {
-
-  }
-
-  footer {
-
-  }*/
 
   /* OLD PORTFOLIO STATES */
 
@@ -787,39 +816,20 @@
   }
 }
 
-/* SMARTPHONES */
+@media(max-width: 650px) {
 
-@media(max-width: 450px) {
-
-  /* iPhone 6 Plus */
-
-  .header-container {
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-  }
-
-  .logo-container {
-    width: auto;
-    height: 100px;
-    margin: auto;
-    text-align: center;
+  .logo-nav-container {
+    position: absolute;
+    top: calc(50% - 210px);
+    left: calc(50% - 125px);
   }
 
   .logo-container svg {
     width: 250px;
+    position: static;
     margin: auto;
-    margin-top: -210px;
-    margin-left: -126px;
+    /*margin-top: 95px;*/
   }
-
-  /* SIDE CONTACT SIDEBAR */
-
-  .contact-icons-sidebar {
-    display: none;
-  }
-
-  /* HEADER NAVBAR SMARTPHONES */
 
   .landing-page-nav {
     display: none;
@@ -830,7 +840,7 @@
     width: 200px;
     height: auto;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -842,49 +852,32 @@
     width: auto;
     height: 20px;
     margin: auto;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
   }
 
-  #about-link {
-    padding-right: 0px;
+  .header-container .anchors {
+    margin-top: 5px;
   }
 
-  #developer-link {
-    padding-right: 0px;
-    padding-left: 0px;
+  /* CONTACT SIDEBAR */
+  .contact-icons-sidebar {
+    width: 30px;
+    height: 200px;
+    position: fixed;
+    left: 0px;
+    top: 30px;
+    transition: transform 600ms;
+    transform: translateX(-30px);
   }
 
-  #designer-link {
-    padding-right: 0px;
-    padding-left: 0px;
+  .fixed-sidebar {
+    position: fixed;
+    transform: translateX(20px);
   }
 
-  #contact-link {
-    padding-left: 0px;
-  }
-
-  .home-keyboard {
-    width: 50vw;
-    margin-left: -25vw;
-    margin-bottom: -25px;
-  }
-
-  .home-keyboard-shadow {
-    width: 50vw;
-    margin-left: -25vw;
-    margin-bottom: -25px;
-  }
-
-  .home-iMac-above {
-    width: 90vw;
-    margin-top: -10px;
-    margin-left: -45vw;
-  }
-
-  .home-iMac-above-shadow {
-    width: 90vw;
-    margin-top: -65px;
-    margin-left: -45vw;
+  .contact-icons-sidebar img {
+    width: 88%;
+    margin-bottom: 30px;
   }
 
   /* ABOUT */
@@ -1120,23 +1113,395 @@
 
 }
 
-@media(max-width: 365px) {
+/*@media(max-width: 550px) {
 
-  /* Samsung Galaxy S5 */
+  .logo-nav-container {
+    margin-top: calc(40% - 215px);
+  }
+
+}
+
+@media(max-width: 500px) {
+
+  .logo-nav-container {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 125px);
+  }
+
+}*/
+
+/* SMARTPHONES */
+
+@media(max-width: 450px) {
+
+  /* iPhone 6 Plus */
+
+  .header-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+
+  .logo-nav-container {
+    position: absolute;
+    top: calc(50% - 190px);
+    left: calc(50% - 125px);
+  }
+
+  .logo-container {
+    width: auto;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+  }
 
   .logo-container svg {
     width: 250px;
     position: static;
     margin: auto;
-    margin-top: 95px;
-    /*margin-left: -126px;*/
+  }
+
+  .header-container .anchors {
+    margin-top: 10px;
+  }
+
+  /* HEADER NAVBAR SMARTPHONES */
+
+  .landing-page-nav {
+    display: none;
+    position: absolute;
   }
 
   .landing-page-nav-smartphones {
     width: 200px;
     height: auto;
     margin: auto;
-    margin-top: 175px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-nav-smartphones div embed {
+    width: auto;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+
+  #about-link {
+    padding-right: 0px;
+  }
+
+  #developer-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #designer-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #contact-link {
+    padding-left: 0px;
+  }
+
+  .home-keyboard {
+    width: 50vw;
+    margin-left: -25vw;
+    margin-bottom: -25px;
+  }
+
+  .home-keyboard-shadow {
+    width: 50vw;
+    margin-left: -25vw;
+    margin-bottom: -25px;
+  }
+
+  .home-iMac-above {
+    width: 90vw;
+    margin-top: -10px;
+    margin-left: -45vw;
+  }
+
+  .home-iMac-above-shadow {
+    width: 90vw;
+    margin-top: -65px;
+    margin-left: -45vw;
+  }
+
+  /* SIDE CONTACT SIDEBAR */
+
+  .contact-icons-sidebar {
+    display: none;
+  }
+
+  /* ABOUT */
+
+  .home-about-me {
+    padding-top: 40px;
+  }
+
+  .about-info-container {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+  }
+
+  .about-pic-paragraph {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .profile-pic-container {
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../img/profilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .profile-pic-container img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: -10px;
+  }
+
+  .home-about-me p {
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-left: 0px;
+  }
+
+  .home-about-me h2 {
+    font-size: 20px;
+  }
+
+  .about-skills-container {
+    width: 85vw;
+    height: auto;
+    margin: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*text-align: center;*/
+    justify-content: center;
+    /*align-content: space-between;*/
+    /*align-items: center;*/
+  }
+
+  .skills-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: 0px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .skills-icon-name {
+    width: 15%;
+    height: auto;
+    margin: auto;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .skills-icon-name img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 3px;
+  }
+
+  .skills-icon-name p {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: -15px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* DEVELOPER PORTFOLIO */
+
+  .home-developer-portfolio {
+    width: 100vw;
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .home-developer-portfolio h2 {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .home-developer-portfolio object embed {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .developer-thumbnail-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .developer-thumbnail {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    /*background-color: white;*/
+  }
+
+  .developer-thumbnail img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .developer-thumbnail-gif {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    /*background-color: white;*/
+  }
+
+  .home-developer-portfolio h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .additional-projects-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .additional-thumbnail-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .additional-thumbnail {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+
+  .additional-thumbnail img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  /* DESIGNER PORTFOLIO */
+
+  .home-designer-portfolio {
+    width: 100vw;
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .home-design-portfolio h2 {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .home-design-portfolio object embed {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .designer-portfolio-pics {
+    width: 80%;
+  }
+
+  .portfolio-cover-container {
+    width: 80%;
+  }
+
+  .portfolio-thumbnail-container {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-cover {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media(max-width: 365px) {
+
+  /* Samsung Galaxy S5 */
+
+  .logo-nav-container {
+    position: absolute;
+    top: calc(50% - 118px);
+    left: calc(50% - 125px);
+  }
+
+  .logo-container svg {
+    width: 250px;
+    position: static;
+    margin: auto;
+  }
+
+  .landing-page-nav-smartphones {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 85px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1193,11 +1558,16 @@
 
 @media(max-width: 350px) {
 
+  .logo-nav-container {
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(50% - 125px);
+  }
+
   .logo-container svg {
     width: 250px;
     position: static;
     margin: auto;
-    margin-top: 95px;
   }
 
   /* HEADER NAVBAR SMARTPHONES */
@@ -1211,7 +1581,7 @@
     width: 200px;
     height: auto;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     text-align: center;
