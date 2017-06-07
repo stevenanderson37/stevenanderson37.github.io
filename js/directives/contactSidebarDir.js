@@ -8,20 +8,29 @@ angular.module('portfolioApp')
 
       // STICKY NAVBAR WITH JQUERY //
       // var headerContainerHeight = $('.header-container').height();
-      var num = $('.header-container').height(); //number of pixels before modifying styles
-      var aboutHeight = $('.home-about-me').height();
-      var developerHeight = $('.home-developer-portfolio').height();
-      var designerHeight = $('.home-design-portfolio').height();
-      var footerHeight = $('.revealed-footer').height();
-      var documentHeight = $(document).height();
+      var num = $('.header-container').outerHeight(true); //number of pixels before modifying styles
+      setTimeout(function() {
+        var headerHeight = $('.header-container').outerHeight(true);
+        var aboutHeight = $('#about-section').outerHeight(true);
+        var developerHeight = $('#developer-section').outerHeight(true);
+        var designerHeight = $('#designer-section').outerHeight(true);
+        var footerHeight = $('#contact-section').outerHeight(true);
+        var documentHeight = $(document).outerHeight(true);
 
-      $(window).bind('scroll', function () {
-        if ($(window).scrollTop() >= num - 200) {
-          $('.contact-icons-sidebar').addClass('fixed-sidebar');
-        } else {
-          $('.contact-icons-sidebar').removeClass('fixed-sidebar');
-        }
-      });
+        $(window).bind('scroll', function () {
+          // console.log(headerHeight);
+          // console.log(aboutHeight);
+          // console.log(developerHeight);
+          // console.log(designerHeight);
+          // console.log(footerHeight);
+          // console.log(documentHeight);
+          if ($(window).scrollTop() >= num - 200 && $(window).scrollTop() <= headerHeight + aboutHeight + developerHeight + designerHeight - 426) {
+            $('.contact-icons-sidebar').addClass('fixed-sidebar');
+          } else {
+            $('.contact-icons-sidebar').removeClass('fixed-sidebar');
+          }
+        });
+      }, 1);
 
       $scope.openMailer = function () {
         window.location.href = "mailto:happygoatdesigns@gmail.com?subject=&body=";
