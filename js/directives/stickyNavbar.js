@@ -8,13 +8,7 @@ angular.module('portfolioApp')
 
       // STICKY NAVBAR WITH JQUERY + HIGHLIGHTING THE CURRENT LOCATION //
 
-      // var headerHeight = $('.header-container').height();
-      // var aboutHeight = $('.home-about-me').height();
-      // var developerHeight = $('.home-developer-portfolio').height();
-      // var designerHeight = $('.home-design-portfolio').height();
-
       $(window).bind('scroll', function () {
-
         setTimeout(function() {
           var headerHeight = $('.header-container').outerHeight(true);
           var aboutHeight = $('#about-section').outerHeight(true);

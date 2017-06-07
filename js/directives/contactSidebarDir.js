@@ -8,16 +8,16 @@ angular.module('portfolioApp')
 
       // STICKY NAVBAR WITH JQUERY //
       // var headerContainerHeight = $('.header-container').height();
-      var num = $('.header-container').outerHeight(true); //number of pixels before modifying styles
-      setTimeout(function() {
-        var headerHeight = $('.header-container').outerHeight(true);
-        var aboutHeight = $('#about-section').outerHeight(true);
-        var developerHeight = $('#developer-section').outerHeight(true);
-        var designerHeight = $('#designer-section').outerHeight(true);
-        var footerHeight = $('#contact-section').outerHeight(true);
-        var documentHeight = $(document).outerHeight(true);
-
-        $(window).bind('scroll', function () {
+      $(window).bind('scroll', function () {
+        setTimeout(function() {
+          //number of pixels before modifying styles
+          var num = $('.header-container').outerHeight(true);
+          var headerHeight = $('.header-container').outerHeight(true);
+          var aboutHeight = $('#about-section').outerHeight(true);
+          var developerHeight = $('#developer-section').outerHeight(true);
+          var designerHeight = $('#designer-section').outerHeight(true);
+          var footerHeight = $('#contact-section').outerHeight(true);
+          var documentHeight = $(document).outerHeight(true);
           // console.log(headerHeight);
           // console.log(aboutHeight);
           // console.log(developerHeight);
@@ -29,8 +29,8 @@ angular.module('portfolioApp')
           } else {
             $('.contact-icons-sidebar').removeClass('fixed-sidebar');
           }
-        });
-      }, 1);
+        }, 1);
+      });
 
       $scope.openMailer = function () {
         window.location.href = "mailto:happygoatdesigns@gmail.com?subject=&body=";
