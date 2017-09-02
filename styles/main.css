@@ -675,7 +675,6 @@ button:active {
 .slider-inner {
 	width: 500px;
 	height: auto;
-	position: relative;
 	overflow: hidden;
 	float: left;
 	padding: 3px;
@@ -689,47 +688,44 @@ button:active {
 }
 
 .slider-inner img.active-mac {
-	display:inline-block;
+	display: inline-block;
 }
 
 .prev-mac,.next-mac {
-	float:left;
-	margin-top:130px;
+	float: left;
+	margin-top: 130px;
 	cursor: pointer;
 }
 
 .prev-mac {
-	position:relative;
-	margin-right:-45px;
-	z-index:100;
+	position: relative;
+  /*position: static;*/
+	margin-right: -45px;
+	z-index: 100;
 }
 
 .next-mac {
-	position:relative;
-	margin-left:-45px;
-	z-index:100;
+	margin-left: -45px;
 }
 
 .slider-inner img.active-paul {
-	display:inline-block;
+	display: inline-block;
 }
 
 .prev-paul,.next-paul {
-	float:left;
-	margin-top:130px;
+	float: left;
+	margin-top: 130px;
 	cursor: pointer;
 }
 
 .prev-paul {
 	position:relative;
-	margin-right:-45px;
-	z-index:100;
+	margin-right: -45px;
+	z-index: 100;
 }
 
 .next-paul {
-	position:relative;
-	margin-left:-45px;
-	z-index:100;
+	margin-left: -45px;
 }
 
 .slider-inner img.active-design-port {
@@ -738,20 +734,18 @@ button:active {
 
 .prev-design-port,.next-design-port {
 	float:left;
-	margin-top:130px;
+	margin-top: 130px;
 	cursor: pointer;
 }
 
 .prev-design-port {
 	position:relative;
-	margin-right:-45px;
-	z-index:100;
+	margin-right: -45px;
+	z-index: 100;
 }
 
 .next-design-port {
-	position:relative;
-	margin-left:-45px;
-	z-index:100;
+	margin-left: -45px;
 }
 
 /* DEVELOPER PORTFOLIO */
