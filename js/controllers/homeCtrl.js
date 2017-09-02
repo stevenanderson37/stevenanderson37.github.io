@@ -191,6 +191,78 @@ angular.module('portfolioApp')
         });
       });
 
+      // vv JQUERY MAC CLONE IMAGE SLIDER vv //
+
+      $(function() {
+        $('.next-mac').on('click', function(){
+          var currentImg = $('.active-mac');
+          var nextImg = currentImg.next();
+
+          if(nextImg.length){
+            currentImg.removeClass('active-mac').css('z-index', -10);
+            nextImg.addClass('active-mac').css('z-index', 10);
+          }
+        });
+
+        $('.prev-mac').on('click', function(){
+          var currentImg = $('.active-mac');
+          var prevImg = currentImg.prev();
+
+          if(prevImg.length){
+            currentImg.removeClass('active-mac').css('z-index', -10);
+            prevImg.addClass('active-mac').css('z-index', 10);
+          }
+        });
+      });
+
+      // vv JQUERY PAUL VALENTINE IMAGE SLIDER vv //
+
+      $(function() {
+        $('.next-paul').on('click', function(){
+          var currentImg = $('.active-paul');
+          var nextImg = currentImg.next();
+
+          if(nextImg.length){
+            currentImg.removeClass('active-paul').css('z-index', -10);
+            nextImg.addClass('active-paul').css('z-index', 10);
+          }
+        });
+
+        $('.prev-paul').on('click', function(){
+          var currentImg = $('.active-paul');
+          var prevImg = currentImg.prev();
+
+          if(prevImg.length){
+            currentImg.removeClass('active-paul').css('z-index', -10);
+            prevImg.addClass('active-paul').css('z-index', 10);
+          }
+        });
+      });
+
+      // vv JQUERY DESIGN PORTFOLIO IMAGE SLIDER vv //
+
+      $(function() {
+        $('.next-design-port').on('click', function(){
+          var currentImg = $('.active-design-port');
+          var nextImg = currentImg.next();
+
+          if(nextImg.length){
+            currentImg.removeClass('active-design-port').css('z-index', -10);
+            nextImg.addClass('active-design-port').css('z-index', 10);
+          }
+        });
+
+        $('.prev-design-port').on('click', function(){
+          var currentImg = $('.active-design-port');
+          var prevImg = currentImg.prev();
+
+          if(prevImg.length){
+            currentImg.removeClass('active-design-port').css('z-index', -10);
+            prevImg.addClass('active-design-port').css('z-index', 10);
+          }
+        });
+      });
+
       // vv STICKY NAVBAR vv //
 
       // $(function() {
