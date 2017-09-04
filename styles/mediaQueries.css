@@ -739,6 +739,12 @@
     margin: auto;
   }
 
+  /* DESIGNER PORTFOLIO */
+
+  .home-design-portfolio {
+    padding-top: 40px;
+  }
+
   /* OLD PORTFOLIO STATES */
 
   .section-row {
@@ -990,6 +996,61 @@
     padding-left: 0;
   }
 
+  /* JQUERY IMAGE SLIDER */
+
+  .slider-container {
+  	width: 340px;
+  	margin: 25px auto 50px auto;
+  }
+
+  .slider-inner {
+  	width: 95%;
+  	height: auto;
+    margin: auto;
+  }
+
+  .prev-mac,.next-mac {
+    height: auto;
+    width: 40px;
+  	margin-top: 90px;
+  }
+
+  .prev-mac {
+  	margin-right: -34px;
+  }
+
+  .next-mac {
+  	margin-left: -34px;
+  }
+
+  .prev-paul,.next-paul {
+    height: auto;
+    width: 40px;
+  	margin-top: 90px;
+  }
+
+  .prev-paul {
+  	margin-right: -34px;
+  }
+
+  .next-paul {
+  	margin-left: -34px;
+  }
+
+  .prev-design-port,.next-design-port {
+    height: auto;
+    width: 40px;
+  	margin-top: 90px;
+  }
+
+  .prev-design-port {
+    margin-right: -34px;
+  }
+
+  .next-design-port {
+  	margin-left: -34px;
+  }
+
   /* DEVELOPER PORTFOLIO */
 
   .home-developer-portfolio {
@@ -1109,6 +1170,10 @@
   .portfolio-cover {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  .project-single-link {
+    margin-bottom: 10px;
   }
 
 }
@@ -1444,7 +1509,7 @@
   .home-designer-portfolio {
     width: 100vw;
     height: auto;
-    padding-top: 40px;
+    padding-top: 0px;
   }
 
   .home-design-portfolio h2 {
